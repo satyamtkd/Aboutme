@@ -55,8 +55,11 @@
             text-align: center;
             animation: textGlow 0.8s ease-in-out infinite;
         }
-        .place, .best-friend {
-            font-size: 0.8em;
+        .place {
+            font-size: 0.8em; /* Smaller text for Place */
+        }
+        .best-friend {
+            font-size: 0.8em; /* Smaller text for Best Friend */
         }
         .section ul {
             list-style-type: none;
@@ -92,11 +95,12 @@
         }
         img {
             border-radius: 50%;
-            width: 100px;
-            height: 100px;
+            width: 100px; /* Smaller size for the profile picture */
+            height: 100px; /* Smaller size for the profile picture */
             margin-bottom: 15px;
             animation: fadeIn 1s ease-in-out;
         }
+        /* Animation Keyframes */
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
